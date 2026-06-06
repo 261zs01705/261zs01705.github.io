@@ -17,7 +17,7 @@ html, body {
 
 body {
   margin: 0　auto;
-  padding: 30px;
+  padding: 30px 30px 100px 30px; /*下だけ100pxに広げました */
   color: #333;
 　max-width: 800px;     /* 画面が広くても、コンテンツの横幅を最大800pxに制限する */
   width: 100%;          /* スマホなどの狭い画面では、画面いっぱいに広げる */
