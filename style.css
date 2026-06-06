@@ -16,9 +16,11 @@ html, body {
 }
 
 body {
-  margin: 0;
+  margin: 0　auto;
   padding: 30px;
   color: #333;
+　max-width: 800px;     /* 画面が広くても、コンテンツの横幅を最大800pxに制限する */
+  width: 100%;          /* スマホなどの狭い画面では、画面いっぱいに広げる */
 }
 
 /* --------------------
@@ -28,6 +30,9 @@ body {
 h1, h2, h3 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
+
+　margin-top: 40px;      /* 上のセクションとの間隔を広げる */
+  margin-bottom: 20px;   /* 見出しとその中身の間隔を少しあける */
 }
 
 /* --------------------
